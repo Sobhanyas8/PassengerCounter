@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(marios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(128, 188, 223);
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: rgb(49, 15, 241);
+    background-color: rgb(252, 252, 252);
+    font-size: 30px ;
+    text-align: center;
+    align-items: center;
+    width: 10%;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+ button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 35px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 190px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} 
+
+
+.INC-btn {
+    background-color: rgb(243, 245, 241);
+    border: 4px solid rgb(6, 218, 34);
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.INC-btn:hover {
+    background-color: rgb(6, 218, 34);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+
+}
+
+.DEC-btn {
+    background-color: rgb(243, 245, 241);
+    border: 4px solid rgb(241, 6, 6);
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} 
+
+.DEC-btn:hover {
+    background-color: rgb(241, 6, 6);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.save-btnC {
+    background-color: rgb(243, 245, 241);
+    border: 4px solid rgb(6, 41, 241);
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+
+.save-btnC:hover {
+    background-color: rgb(6, 41, 241);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#save-el {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 30px;
+    width: 80vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
